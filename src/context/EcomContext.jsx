@@ -206,7 +206,7 @@ export const EcomProvider = ({ children }) => {
 
   const createOrder = async (transaction_id, orderId) => {
     try {
-      const res = await fetch('https://technotronix-api-qvbr.onrender.com/payment/verify', {
+      const res = await fetch('https://technotronix-api-qvbr.onrender.com/api/payment/verify', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
