@@ -32,7 +32,7 @@ export const EcomProvider = ({ children }) => {
   console.log(cartCount);
 
   const fetchProduct = async () => {
-    const response = await fetch("https://technotronix-api-qvbr.onrender.com/product");
+    const response = await fetch("https://technotronix-api-qvbr.onrender.com/api/product");
     const data = await response.json();
     setProduct(data);
   };

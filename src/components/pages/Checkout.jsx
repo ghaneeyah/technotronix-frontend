@@ -63,7 +63,7 @@ function Checkout() {
                 <td>
                   <div className="flex justify-center">
                     <img
-                      src={"https://ecomfront-test.onrender.com/" + item.product.img}
+                      src={"https://technotronix-api-qvbr.onrender.com/" + item.product.img}
                       className="h-[50px]"
                       alt=""
                     />
